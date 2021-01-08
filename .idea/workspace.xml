@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="664cfbb4-1cb7-49a5-a636-ed96b9d8f41d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelButton/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelData/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelData/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelInfo/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelList/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelMessage/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelMessage/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ServerName/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ServerName/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserInfo/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserList/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mi807K6o1tlt1AnJ6zcPomY94u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="664cfbb4-1cb7-49a5-a636-ed96b9d8f41d" name="Default Changelist" comment="" />
+      <created>1609964824624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609964824624</updated>
+      <workItem from="1609964843106" duration="5413000" />
+      <workItem from="1610040949411" duration="9236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
