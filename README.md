@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was developed with the rocketseat video in order to learn
+This project was developed with the rocketseat video in order to learn.
+
+This project has been deployed to github pages and can be viewed on http://gabrielhrp31.github.io/discord-ui-clone .
 
 ## Available Scripts
 
