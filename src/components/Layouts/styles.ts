@@ -33,7 +33,7 @@ export const Grid = styled.div`
       width: 15vw;
       margin-left: 85vw;
       background-color: rgba(0,0,0,0.2);
-      min-height: 100vh;
+      height: 100%;
       z-index: 10;
     }
   }

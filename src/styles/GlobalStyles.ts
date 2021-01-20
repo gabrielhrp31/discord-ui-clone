@@ -10,6 +10,8 @@ export default createGlobalStyle`
     html,body,#root{
         height:100%;
         overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     *, button, input{
