@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/discord-ui-clone/static/js/main.62454cd2.chunk.js",
-    "main.js.map": "/discord-ui-clone/static/js/main.62454cd2.chunk.js.map",
+    "main.js": "/discord-ui-clone/static/js/main.32b8a191.chunk.js",
+    "main.js.map": "/discord-ui-clone/static/js/main.32b8a191.chunk.js.map",
     "runtime-main.js": "/discord-ui-clone/static/js/runtime-main.64b8b06f.js",
     "runtime-main.js.map": "/discord-ui-clone/static/js/runtime-main.64b8b06f.js.map",
     "static/js/2.c70a5b76.chunk.js": "/discord-ui-clone/static/js/2.c70a5b76.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.64b8b06f.js",
     "static/js/2.c70a5b76.chunk.js",
-    "static/js/main.62454cd2.chunk.js"
+    "static/js/main.32b8a191.chunk.js"
   ]
 }
