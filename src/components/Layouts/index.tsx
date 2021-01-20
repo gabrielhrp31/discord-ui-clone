@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ServerList from '../ServerList';
 import { Grid } from './styles';
 import ServerName from "../ServerName";

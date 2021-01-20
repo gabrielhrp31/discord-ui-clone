@@ -1,19 +1,18 @@
 import React from 'react';
 import { Container, Category, AddCategoryIcon } from './styles';
 import ChannelButton from "../ChannelButton";
-import {Grid} from "../Layouts/styles";
 
 export interface Props {
-    open:boolean
+    open: boolean
 }
 
 const ChannelList: React.FC<Props> = ({
     open
-})=>{
-    return <Container  className={open?'open':''}>
+}) => {
+    return <Container className={open ? 'open' : ''}>
         <Category >
             <span>Canais de Texto</span>
-            <AddCategoryIcon/>
+            <AddCategoryIcon />
         </Category>
         <ChannelButton channelName="chat-livre" />
         <ChannelButton channelName="trabalho" />

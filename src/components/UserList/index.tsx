@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Role, Avatar, User } from './styles';
 
 export interface UserProps {
