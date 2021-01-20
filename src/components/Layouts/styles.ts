@@ -30,7 +30,7 @@ export const Grid = styled.div`
     
     >div.overlay{
       position: absolute;
-      width: 500px;
+      width: 15vw;
       margin-left: 85vw;
       background-color: rgba(0,0,0,0.2);
       min-height: 100vh;
