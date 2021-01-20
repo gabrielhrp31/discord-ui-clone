@@ -1,11 +1,24 @@
+import { inject, observer } from 'mobx-react';
 import React from 'react';
-import { Container,Title, ExpandIcon } from './styles';
+import Store from '../../store';
+import { Container, Title, ExpandIcon, CloseIcon } from './styles';
 
-const ServerName: React.FC = () => {
+
+interface ServerNameProps {
+    store?: Store | undefined
+}
+
+const ServerName: React.FC<ServerNameProps> = (props) => {
+
+    const { store } = props;
+
     return <Container>
         <Title>Bunker</Title>
-        <ExpandIcon />
+        <div>
+            <ExpandIcon />
+            <CloseIcon onClick={() => store?.setOpen('')} />
+        </div>
     </Container>;
 }
 
-export default ServerName;
+export default inject('store')(observer(ServerName));

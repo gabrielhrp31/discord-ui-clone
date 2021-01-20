@@ -5,11 +5,17 @@ export const Container = styled.div`
     grid-area: CD;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    max-height: calc(100vh - 46px);
 
+  
     padding-right:3px;
   
     background-color: var(--primary);
+  
+    @media (min-width: 769px) {
+      margin-left: unset;
+    }
 `;
 
 export const Messages = styled.div`
@@ -17,10 +23,9 @@ export const Messages = styled.div`
   
     display: flex;
     flex-direction: column;
-    
-    max-height: calc(100vh - 46px - 68px);
+    max-height: calc(100vh - 46px);
     overflow-y: scroll;
-
+  
     ::-webkit-scrollbar {
         width: 8px;
     }
@@ -33,10 +38,16 @@ export const Messages = styled.div`
         border-radius: 8px;
         background-color: var(--secondary);
     }
+  
+    @media (min-width: 769px) {
+        max-height: calc(100vh - 46px - 68px);
+    }
+
 `;
 export const InputWrapper = styled.div`
     width: 100%;
     padding: 0 16px;
+    position: relative;
   
 `;
 export const Input = styled.input`
@@ -55,15 +66,18 @@ export const Input = styled.input`
     }
   
     ~svg{
-        position: relative;
-        top: -50%;
-        left:14px;
         transition: 180ms ease-in-out;
     }
 `;
 export const InputIcon = styled(AlternateEmail)`
     width: 24px;
     height: 24px;
+
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    left:30px;
     
     color: var(--gray);
 `;

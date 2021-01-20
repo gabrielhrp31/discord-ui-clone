@@ -1,5 +1,8 @@
 import styled from "styled-components";
-import {Hashtag} from 'styled-icons/heroicons-outline'
+import { Hashtag } from 'styled-icons/heroicons-outline'
+import { Menu } from '@styled-icons/boxicons-regular/Menu'
+import { Close } from 'styled-icons/material';
+import { UserFriends } from '@styled-icons/fa-solid/UserFriends'
 
 export const Container = styled.div`
     grid-area: CI;
@@ -16,9 +19,48 @@ export const Container = styled.div`
 export const Title = styled.h1`
   margin-left: 9px;
   font-size: 16px;
-  font-width: bold;
+  font-weight: bold;
 
   color: var(--white);
+`;
+
+export const OpenServersIcon = styled(Menu)`
+    width: 24px;
+    height: 24px;
+    margin-left:-10px;
+    margin-right:5px;
+    color: var(--white);
+    cursor:pointer;
+  
+    @media (min-width: 769px){
+        display:none;
+    }
+`;
+
+
+export const OpenFriendsIcon = styled(UserFriends)`
+    width: 24px;
+    height: 24px;
+    margin-left:auto;
+    margin-right:5px;
+    color: var(--white);
+    cursor:pointer;
+  
+    @media (min-width: 1025px){
+        display:none;
+    }
+`;
+
+export const CloseFriendsIcon = styled(Close)`
+    width: 24px;
+    height: 24px;
+    margin-left:auto;
+    margin-right:5px;
+    color: var(--white);
+    cursor:pointer;
+    @media (min-width: 1025px){
+        display:none;
+    }
 `;
 
 export const HashtagIcon = styled(Hashtag)`

@@ -4,11 +4,19 @@ import {Add} from "styled-icons/material";
 
 export const Container = styled.div`
     grid-area: CL;
-    display: flex;
+    display: none;
     flex-direction: column;
   
     padding: 24px 9.5px 0 16px;
     background-color: var(--secondary);
+
+    @media (min-width: 769px) {
+        display: flex;
+    }
+  
+    &.open{
+      display: flex;
+    }
 `;
 export const Category = styled.div`
     display: flex;

@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    grid-area: UL;
-    display: flex;
-    flex-direction: column;
-    
-    padding: 3px 6px 0px 16px;
-    background-color: var(--secondary);
-    
-    max-height: calc(100vh - 46px);
+  grid-area: UL;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 6px 0px 16px;
+  background-color: var(--secondary);
+  z-index: 3;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-y: scroll;
+  position: relative;
   
+  @media (min-width: 1025px) {
+    transform: unset;
+    position: relative;
+
+    max-height: calc(100vh - 46px);
+
     overflow-y: scroll;
+  }
 
   ::-webkit-scrollbar {
     width: 4px;

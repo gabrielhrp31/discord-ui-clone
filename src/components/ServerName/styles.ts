@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import {ExpandMore} from 'styled-icons/material';
+import { ExpandMore, Close } from 'styled-icons/material';
 
 export const Container = styled.div`
+  grid-area: SN;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,4 +27,16 @@ export const ExpandIcon = styled(ExpandMore)`
   
   color: var(--white);
   cursor: pointer;
+`;
+export const CloseIcon = styled(Close)`
+  display:inline-block;
+  width: 24px;
+  height: 24px;
+  
+  color: var(--white);
+  cursor: pointer;
+  
+  @media (min-width: 769px){
+    display:none;
+  }
 `;

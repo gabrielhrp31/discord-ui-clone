@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="664cfbb4-1cb7-49a5-a636-ed96b9d8f41d" name="Default Changelist" comment="" />
+    <list default="true" id="664cfbb4-1cb7-49a5-a636-ed96b9d8f41d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChannelData/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChannelData/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChannelData/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChannelData/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChannelList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChannelList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChannelList/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChannelList/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layouts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layouts/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layouts/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServerName/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServerName/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserList/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserList/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pipefy-clone" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +70,8 @@
       <updated>1609964824624</updated>
       <workItem from="1609964843106" duration="5413000" />
       <workItem from="1610040949411" duration="10016000" />
+      <workItem from="1610214447662" duration="1212000" />
+      <workItem from="1610742452431" duration="10431000" />
     </task>
     <servers />
   </component>
